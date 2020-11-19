@@ -12,11 +12,11 @@ body {
 }
 
 section.bg-dark:first-of-type {
-    background: linear-gradient(180deg, rgba(33,37,41, 1) 2%, rgba(33,37,41, 0.9) 5%, rgba(33,37,41, 0.9) 95%, rgba(33,37,41, 1) 98%), url('/img/topobg.webp');
+    background: linear-gradient(180deg, rgba(33,37,41, 1) 2%, rgba(33,37,41, 0.9) 5%, rgba(33,37,41, 0.9) 95%, rgba(33,37,41, 1) 98%), url('../img/topobg.webp');
     background-size: cover;
 }
 
 section.bg-light:first-of-type {
-    background: linear-gradient(180deg, rgb(248,249,250) 2%, rgba(248,249,250, .8) 5%, rgba(248,249,250, .8) 95%, rgba(248,249,250, 1) 98%), url('/img/topobg.webp');
+    background: linear-gradient(180deg, rgb(248,249,250) 2%, rgba(248,249,250, .8) 5%, rgba(248,249,250, .8) 95%, rgba(248,249,250, 1) 98%), url('../img/topobg.webp');
     background-size: cover;
 }
