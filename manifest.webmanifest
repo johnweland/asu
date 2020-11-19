@@ -1,0 +1,23 @@
+{
+    "name": "Ammo Storage USA",
+    "short_name": "AmmoUSA",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#212529",
+    "theme_color": "#212529",
+    "description": "Reliable, safe & dependable ammo storage.",
+    "icons": [{
+      "src": "img/touch/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "img/touch/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }, {
+        "src": "img/touch/safari-pinned-tab.svg",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }]
+  }
