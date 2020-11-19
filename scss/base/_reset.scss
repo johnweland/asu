@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+section.bg-dark:first-of-type {
+    background: linear-gradient(180deg, rgba(33,37,41, 1) 2%, rgba(33,37,41, 0.9) 5%, rgba(33,37,41, 0.9) 95%, rgba(33,37,41, 1) 98%), url('/img/topobg2.jpg');
+    background-size: cover;
+}
+
+section.bg-light:first-of-type {
+    background: linear-gradient(180deg, rgb(248,249,250) 2%, rgba(248,249,250, .8) 5%, rgba(248,249,250, .8) 95%, rgba(248,249,250, 1) 98%), url('/img/topobg2.jpg');
+    background-size: cover;
+}

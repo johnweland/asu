@@ -1,0 +1,19 @@
+{
+  "name": "ammo-storage-usa",
+  "version": "1.0.0",
+  "description": "Website Redo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnweland/ammo-storage-usa.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnweland/ammo-storage-usa/issues"
+  },
+  "homepage": "https://github.com/johnweland/ammo-storage-usa#readme"
+}
