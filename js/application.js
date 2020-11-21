@@ -16,8 +16,8 @@ const toggleTheme = () => {
 
     if (lightBackgrounds.length) {
         lightBackgrounds.forEach(background => {
-            background.classList.remove('table-light');
-            background.classList.add('table-dark');            
+            background.classList.remove('bg-light');
+            background.classList.add('bg-dark');            
         });
     }
 
@@ -94,6 +94,8 @@ if ('content' in document.createElement('template')) {
             let td = clone.querySelectorAll("td");
             let img = document.createElement("img");
             img.src = item.img;
+            img.className= "img-thumbnail";
+            img.alt = `${item.count} - ${item.desc}`;
             td[0].appendChild(img);
             td[1].textContent = item.desc;
             td[2].textContent = item.count;
