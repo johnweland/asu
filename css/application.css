@@ -13,12 +13,12 @@ body {
 }
 
 section.bg-dark:first-of-type {
-  background: linear-gradient(180deg, #212529 2%, rgba(33, 37, 41, 0.9) 5%, rgba(33, 37, 41, 0.9) 95%, #212529 98%), url("/img/topobg.webp");
+  background: linear-gradient(180deg, #212529 2%, rgba(33, 37, 41, 0.9) 5%, rgba(33, 37, 41, 0.9) 95%, #212529 98%), url("../img/topobg.webp");
   background-size: cover;
 }
 
 section.bg-light:first-of-type {
-  background: linear-gradient(180deg, #f8f9fa 2%, rgba(248, 249, 250, 0.8) 5%, rgba(248, 249, 250, 0.8) 95%, #f8f9fa 98%), url("/img/topobg.webp");
+  background: linear-gradient(180deg, #f8f9fa 2%, rgba(248, 249, 250, 0.8) 5%, rgba(248, 249, 250, 0.8) 95%, #f8f9fa 98%), url("../img/topobg.webp");
   background-size: cover;
 }
 
@@ -42,6 +42,12 @@ section.bg-light:first-of-type {
 
 .display-6 {
   font-size: calc(1.0rem + 1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-7 {
+  font-size: calc(1.0rem + .8vw);
   font-weight: 300;
   line-height: 1.2;
 }
